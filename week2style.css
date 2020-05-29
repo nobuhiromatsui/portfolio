@@ -72,8 +72,10 @@ body {
     
 }
 
-/* top-page cover img */
-.cover {
+/* top-page jumbotron */
+.jumbotron {
+    margin: 0px;
+    padding: 20%;
     background-color: greenyellow;
     width: 100%;
     height: 100vh;
@@ -81,7 +83,16 @@ body {
     background-size: cover;
     background-attachment: fixed;　
 }
-    
+
+.display-4 {
+    margin: 0% 0% 5% 0%;
+    color: white;
+    line-height: 50px;
+}
+
+.lead {
+    color: white;
+}  
 
 /* form style*/
 
