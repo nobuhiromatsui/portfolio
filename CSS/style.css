@@ -6,7 +6,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    background-color: honeydew;
+    background-color: rgb(65, 65, 65);
 }
 
 /* Navigation style*/
@@ -45,7 +45,7 @@ body {
 
 
 .navigation ul li {
-    display: inline-block;
+    /* display: inline-block; */
     float: right;
     padding-right: 3%;
 }
@@ -67,12 +67,17 @@ body {
     margin-top: 150px;
     box-sizing: border-box;
     width: 100%;
-    margin-bottom: 300px;
-
-    
+    margin-bottom: 100px;
 }
 
-/* top-page jumbotron */
+.nav-link img {
+    padding:0px;
+    margin: 0px;
+    height: 15px;
+    width: 15px;
+}
+
+/* top-page jumbotron
 .jumbotron {
     margin: 0px;
     padding: 20%;
@@ -82,17 +87,49 @@ body {
     background-image: url("img/mtFuji-top.JPG");
     background-size: cover;
     background-attachment: fixed;　
+} */
+
+.carousel-inner img {
+    height: 400px;
+    width: 519px;
+    float: left;
 }
 
-.display-4 {
+.carousel-inner h1 {
+    /* margin-left: 500px; */
+    font-size: 2em;
+    padding: 10px;
+    color: white;
+}
+
+.carousel-inner p  {
+    /* margin-left: 500px; */
+    line-height: 1.6;
+    padding: 30px;
+    color: white;
+}
+
+.carousel-control-prev-icon {
+    width: 80px;
+    height: 80px;
+
+} 
+
+.carousel-control-next-icon {
+    width: 80px;
+    height: 80px;
+} 
+
+
+/* .display-4 {
     margin: 0% 0% 5% 0%;
     color: white;
     line-height: 50px;
-}
+} */
 
-.lead {
+/* .lead {
     color: white;
-}  
+}   */
 
 /* form style*/
 
@@ -171,7 +208,9 @@ footer p {
 
 
 
-
+.inputLabel {
+    color: white;
+}
 
 /* col-lg-3 style */
 
@@ -193,6 +232,7 @@ footer p {
     padding: 30px 10px 10px 10px;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
+    color: white;
 }
 
 .col-lg-6 p {
@@ -200,6 +240,8 @@ footer p {
     float: left;
     padding: 0px 10px 10px 10px;
     line-height: 30px;
+    color: white;
+    
 }
 
 
@@ -233,8 +275,17 @@ footer p {
     }
     .navigation {
         width: 60%;
-        font-size: small;
+        font-size: 10px;
+        float: none; 
     }
+    .navigation img {
+        width: 30;
+        height: 34;
+    }
+/* 
+    .navigation li {
+        margin-top: 10px;
+    } */
 }
     
 
@@ -248,6 +299,14 @@ footer p {
         width: 90%;
         float: none; 
     }
+    .navigation img {
+        width: 30;
+        height: 34;
+    }
+
+    .navigation li {
+        padding-top: 8px;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -257,7 +316,16 @@ footer p {
                 
     .navigation {
         width: 95%;
-        font-size: small;
+        font-size: 10px;
+    }
+
+    .navigation img {
+        width: 30;
+        height: 34;
+    }
+
+    .navigation li {
+        padding-top: 8px;
     }
 }
 
@@ -270,7 +338,18 @@ footer p {
                 
     .navigation {
         width: 100%;
-        font-size: small;
+        font-size: 10px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .navigation img {
+        width: 30;
+        height: 34;
+    }
+
+    .navigation li {
+        padding-top: 8px;
     }
 }
 
