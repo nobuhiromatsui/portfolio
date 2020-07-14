@@ -255,6 +255,19 @@ footer p {
     .navigation {
         width: 70%;
     }
+
+    .navigation img {
+
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .navigation ul li {
+        padding: 0px;
+        padding-top: 0px;
+        margin:0px;
+        font-size: 12px;
+    }
 }
 
 
@@ -267,6 +280,19 @@ footer p {
     .navigation {
         width: 60%;
     }
+
+    .navigation img {
+
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .navigation ul li {
+        padding: 0px;
+        padding-top: 0px;
+        margin:0px;
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 568px) {
@@ -278,14 +304,19 @@ footer p {
         font-size: 10px;
         float: none; 
     }
+
     .navigation img {
-        width: 30;
-        height: 34;
+
+        padding: 0px;
+        margin: 0px;
     }
-/* 
-    .navigation li {
-        margin-top: 10px;
-    } */
+
+    .navigation ul li {
+        padding: 0px;
+        padding-top: 0px;
+        margin:0px;
+        font-size: 9px;
+    }
 }
     
 
@@ -296,16 +327,20 @@ footer p {
     }
 
     .navigation {
-        width: 90%;
+        width: 100%;
         float: none; 
     }
     .navigation img {
-        width: 30;
-        height: 34;
+
+        padding: 0px;
+        margin: 0px;
     }
 
-    .navigation li {
-        padding-top: 8px;
+    .navigation ul li {
+        padding: 0px;
+        padding-top: 13px;
+        margin:0px;
+        font-size: 13px;
     }
 }
 
@@ -315,18 +350,22 @@ footer p {
     }
                 
     .navigation {
-        width: 95%;
-        font-size: 10px;
+        width: 100%;
     }
 
     .navigation img {
-        width: 30;
-        height: 34;
+
+        padding: 0px;
+        margin: 0px;
     }
 
-    .navigation li {
-        padding-top: 8px;
+    .navigation ul li {
+        padding: 0px;
+        padding-top: 13px;
+        margin:0px;
+        font-size: 12px;
     }
+    
 }
 
 
@@ -338,18 +377,22 @@ footer p {
                 
     .navigation {
         width: 100%;
-        font-size: 10px;
         padding: 0px;
         margin: 0px;
     }
 
     .navigation img {
-        width: 30;
-        height: 34;
+
+        padding: 0px;
+        margin: 0px;
     }
 
-    .navigation li {
-        padding-top: 8px;
+    .navigation ul li {
+        padding: 0px;
+        padding-top: 13px;
+        margin:0px;
+        font-size: 10px;
     }
+    
 }
 
